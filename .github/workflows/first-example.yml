@@ -16,5 +16,6 @@ jobs:
 
         -  name: Read file
            run: cat README.md
-                pwd
+        -  name: checking current path
+           run: pwd
         
