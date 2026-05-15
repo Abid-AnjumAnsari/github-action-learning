@@ -9,13 +9,17 @@ jobs:
         -  name: checkout step
            uses: actions/checkout@v6
         -  name: Welcome Message
-           run: echo "My first Github action job"
+           run: | 
+            echo "My first Github action job"
+            ls -ltra
+            pwd
+            cat README.md
 
-        -  name: List files
-           run: ls
+        # -  name: List files
+        #    run: ls
 
-        -  name: Read file
-           run: cat README.md
-        -  name: checking current path
-           run: pwd
+        # -  name: Read file
+        #    run: cat README.md
+        # -  name: checking current path
+        #    run: pwd
         
