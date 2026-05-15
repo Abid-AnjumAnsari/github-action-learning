@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         -  name: checkout step
-           uses: action/checkout@v6
+           uses: actions/checkout@v6
         -  name: Welcome Message
            run: echo "My first Github action job"
 
