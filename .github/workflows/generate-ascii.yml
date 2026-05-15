@@ -10,6 +10,7 @@ jobs:
           uses: actions/checkout@v6
         - name: List files from repo
           run: ls -ltra
+        -name
         - name: Executing shell script
           run: ./ascii-script.sh
         # - name: Execute cowsay command
