@@ -25,4 +25,4 @@ jobs:
     steps:
       - name: Show Event
         run: |
-         echo "This workflow ran for a a event: ${{ github.event_name }}"
+         echo "This workflow ran for a a a event: ${{ github.event_name }}"
