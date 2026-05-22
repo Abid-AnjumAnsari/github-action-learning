@@ -5,7 +5,7 @@ on:
 
   push:
      branches:
-       - main
+       - testing
     # branches-ignore:
     #   - 'feature/*'
     #   - 'test/**'
