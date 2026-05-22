@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
 
   push:
-    # branches:
-    #   - main
-    branches-ignore:
-      - 'feature/*'
-      - 'test/**'
+    branches:
+      - main
+    # branches-ignore:
+    #   - 'feature/*'
+    #   - 'test/**'
 
   pull_request:
     types:
