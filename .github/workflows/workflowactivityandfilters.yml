@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
   push:
-    branches:
-      - main
+     branches:
+       - main
     # branches-ignore:
     #   - 'feature/*'
     #   - 'test/**'
@@ -25,4 +25,4 @@ jobs:
     steps:
       - name: Show Event
         run: |
-         echo "This workflow ran for event: ${{ github.event_name }}"
+         echo "This workflow ran for a event: ${{ github.event_name }}"
